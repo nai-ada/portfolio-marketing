@@ -4,7 +4,7 @@ function VideoPlayer({ videos }) {
       {videos.map((video, i) => (
         <video
           key={i}
-          autoPlay
+          autoPlay={!isMobile}
           muted
           loop
           controls
