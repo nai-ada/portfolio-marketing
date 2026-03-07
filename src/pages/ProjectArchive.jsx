@@ -1,20 +1,36 @@
 import VideoPlayer from "../components/VideoPlayer";
 import { Link } from "react-router-dom";
 import Logo from "../components/Logo";
-const twiceEvent = "/videos/twice-event.mp4";
-const giftExchange = "/videos/gift-exchange.mp4";
-const shopLocal = "/videos/shop-local.mp4";
-const boyfriendVid = "/videos/boyfriend-vid.mp4";
-const colorHunt = "/videos/color-hunt.mp4";
-const vlog1 = "/videos/vlog1.mp4";
-const phoneDeco = "/videos/phone-deco.mp4";
-const customerFeature = "/videos/customer-feature.mp4";
-const artPrint = "/videos/art-print.mov";
-const alienStage = "/videos/alien-stage.mp4";
-const jjkDetailed = "/videos/jjk-detailed.mp4";
-const halloweenRecap = "/videos/halloween-recap.mp4";
-const halloweenLiveDrawing = "/videos/halloween-live-drawing.mp4";
-const japaneseUnboxing = "/videos/japanese-unboxing.mp4";
+const vlog1 =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887536/vlog1_zruxu3.mp4";
+const twiceEvent =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887535/twice-event_j34p5g.mov";
+const giftExchange =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887456/gift-exchange_y3tjyi.mov";
+const shopLocal =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887533/shop-local_qxhxk1.mp4";
+const boyfriendVid =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887410/boyfriend-vid_mnpopb.mp4";
+const colorHunt =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887415/color-hunt_xux4ik.mp4";
+const phoneDeco =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887532/phone-deco_xpfh6m.mp4";
+const customerFeature =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772889126/customer-feature_eplyqi.mp4";
+const artPrint =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887420/art-print_idovdh.mov";
+const alienStage =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887420/alien-stage_drrnw0.mov";
+const jjkDetailed =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772889131/jjk-detailed_yvdbrw.mp4";
+const halloweenRecap =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887495/halloween-recap_uieoit.mp4";
+const halloweenLiveDrawing =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887475/halloween-live-drawing_fxnugp.mp4";
+const japaneseUnboxing =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887510/japanese-unboxing_qm2qgs.mp4";
+const bouquetEvent =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887419/bouquet-event_moum4z.mp4";
 
 export default function ProjectArchive() {
   const categories = [
@@ -24,6 +40,7 @@ export default function ProjectArchive() {
       videos: [
         twiceEvent,
         boyfriendVid,
+        bouquetEvent,
         shopLocal,
         customerFeature,
         alienStage,

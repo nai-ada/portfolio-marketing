@@ -1,12 +1,19 @@
 import VideoPlayer from "./VideoPlayer";
 import { Link } from "react-router-dom";
-const twiceEvent = "/videos/twice-event.mp4";
-const giftExchange = "/videos/gift-exchange.mp4";
-const shopLocal = "/videos/shop-local.mp4";
-const boyfriendVid = "/videos/boyfriend-vid.mp4";
-const colorHunt = "/videos/color-hunt.mp4";
-const artPrint = "/videos/art-print.mov";
-const japaneseUnboxing = "/videos/japanese-unboxing.mp4";
+const twiceEvent =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887535/twice-event_j34p5g.mov";
+const giftExchange =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887456/gift-exchange_y3tjyi.mov";
+const shopLocal =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887533/shop-local_qxhxk1.mp4";
+const boyfriendVid =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887410/boyfriend-vid_mnpopb.mp4";
+const colorHunt =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887415/color-hunt_xux4ik.mp4";
+const artPrint =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887420/art-print_idovdh.mov";
+const japaneseUnboxing =
+  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887510/japanese-unboxing_qm2qgs.mp4";
 
 export default function Work() {
   const featuredDreamCollectiveContent = [
