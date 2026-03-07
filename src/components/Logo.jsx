@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import LogoImage from "../assets/images/logo.png";
-import LogoActive from "../assets/images/logo_active.png";
+const LogoImage = "/images/logo.png";
+const LogoActive = "/images/logo_active.png";
 
 export default function Logo() {
   const [isHovered, setIsHovered] = useState(false);

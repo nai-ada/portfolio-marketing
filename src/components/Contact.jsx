@@ -1,8 +1,8 @@
-import smiski from "../assets/images/smiski.gif";
-import email from "../assets/images/email.png";
-import linkedin from "../assets/images/linkedin.png";
-import instagram from "../assets/images/instagram.png";
-import tiktok from "../assets/images/tik-tok.png";
+const smiski = "/images/smiski.gif";
+const email = "/images/email.png";
+const linkedin = "/images/linkedin.png";
+const instagram = "/images/instagram.png";
+const tiktok = "/images/tik-tok.png";
 
 const Contact = () => {
   return (

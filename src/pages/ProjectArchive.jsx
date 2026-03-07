@@ -1,20 +1,20 @@
 import VideoPlayer from "../components/VideoPlayer";
 import { Link } from "react-router-dom";
 import Logo from "../components/Logo";
-import vlog1 from "../assets/videos/vlog1.mp4";
-import twiceEvent from "../assets/videos/twice-event.mp4";
-import giftExchange from "../assets/videos/gift-exchange.mp4";
-import shopLocal from "../assets/videos/shop-local.mp4";
-import boyfriendVid from "../assets/videos/boyfriend-vid.mp4";
-import colorHunt from "../assets/videos/color-hunt.mp4";
-import phoneDeco from "../assets/videos/phone-deco.mp4";
-import customerFeature from "../assets/videos/customer-feature.mp4";
-import artPrint from "../assets/videos/art-print.mov";
-import alienStage from "../assets/videos/alien-stage.mp4";
-import jjkDetailed from "../assets/videos/jjk-detailed.mp4";
-import halloweenRecap from "../assets/videos/halloween-recap.mp4";
-import halloweenLiveDrawing from "../assets/videos/halloween-live-drawing.mp4";
-import japaneseUnboxing from "../assets/videos/japanese-unboxing.mp4";
+const twiceEvent = "/videos/twice-event.mp4";
+const giftExchange = "/videos/gift-exchange.mp4";
+const shopLocal = "/videos/shop-local.mp4";
+const boyfriendVid = "/videos/boyfriend-vid.mp4";
+const colorHunt = "/videos/color-hunt.mp4";
+const vlog1 = "/videos/vlog1.mp4";
+const phoneDeco = "/videos/phone-deco.mp4";
+const customerFeature = "/videos/customer-feature.mp4";
+const artPrint = "/videos/art-print.mov";
+const alienStage = "/videos/alien-stage.mp4";
+const jjkDetailed = "/videos/jjk-detailed.mp4";
+const halloweenRecap = "/videos/halloween-recap.mp4";
+const halloweenLiveDrawing = "/videos/halloween-live-drawing.mp4";
+const japaneseUnboxing = "/videos/japanese-unboxing.mp4";
 
 export default function ProjectArchive() {
   const categories = [

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import HeroProfileImg1 from "../assets/images/japan.gif";
-import HeroProfileImg2 from "../assets/images/la.gif";
-import HeroProfileImg3 from "../assets/images/vancouver.gif";
-import ClickMe from "../assets/images/clickme.png";
+const HeroProfileImg1 = "/images/japan.gif";
+const HeroProfileImg2 = "/images/la.gif";
+const HeroProfileImg3 = "/images/vancouver.gif";
+const ClickMe = "/images/clickme.png";
 
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);

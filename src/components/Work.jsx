@@ -1,12 +1,12 @@
 import VideoPlayer from "./VideoPlayer";
 import { Link } from "react-router-dom";
-import twiceEvent from "../assets/videos/twice-event.mp4";
-import giftExchange from "../assets/videos/gift-exchange.mp4";
-import shopLocal from "../assets/videos/shop-local.mp4";
-import boyfriendVid from "../assets/videos/boyfriend-vid.mp4";
-import colorHunt from "../assets/videos/color-hunt.mp4";
-import artPrint from "../assets/videos/art-print.mov";
-import japaneseUnboxing from "../assets/videos/japanese-unboxing.mp4";
+const twiceEvent = "/videos/twice-event.mp4";
+const giftExchange = "/videos/gift-exchange.mp4";
+const shopLocal = "/videos/shop-local.mp4";
+const boyfriendVid = "/videos/boyfriend-vid.mp4";
+const colorHunt = "/videos/color-hunt.mp4";
+const artPrint = "/videos/art-print.mov";
+const japaneseUnboxing = "/videos/japanese-unboxing.mp4";
 
 export default function Work() {
   const featuredDreamCollectiveContent = [

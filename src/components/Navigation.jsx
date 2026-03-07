@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-import DownloadIcon from "../assets/images/download_icon.png";
+const DownloadIcon = "/images/download_icon.png";
 
 export default function Navigation() {
   return (
