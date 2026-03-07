@@ -1,4 +1,6 @@
 function VideoPlayer({ videos }) {
+  const isMobile = window.innerWidth <= 768;
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 md:ml-10 md:mr-10">
       {videos.map((video, i) => (
