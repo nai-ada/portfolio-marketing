@@ -1,22 +1,10 @@
-import { useState } from "react";
+import Logo from "./Logo";
 import DownloadIcon from "../assets/images/download_icon.png";
-import Logo from "../assets/images/logo.png";
-import LogoActive from "../assets/images/logo_active.png";
 
 export default function Navigation() {
-  const [isHovered, setIsHovered] = useState(false);
   return (
     <>
-      <div className="p-1 flex justify-center">
-        <img
-          src={isHovered ? LogoActive : Logo}
-          alt="logo"
-          className="w-20 cursor-pointer"
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-        />
-      </div>
-
+      <Logo />
       <nav
         className="font-lilex text-[12px] md:text-[14px] text-blue-600 font-semibold"
         id="top"
@@ -50,7 +38,7 @@ export default function Navigation() {
           </li>
           <li>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/nadiavespalec"
               className="underline decoration-transparent hover:decoration-current transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"

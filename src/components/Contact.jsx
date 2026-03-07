@@ -25,16 +25,42 @@ const Contact = () => {
       <div className="flex m-auto justify-center mb-20 mt-6">
         <ul className="flex gap-10 md:gap-16">
           <li className="hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer">
-            <img src={email} alt="" className="w-7"></img>
+            <a
+              href="mailto:nadiavespalec00@gmail.com"
+              className="underline decoration-transparent hover:decoration-current transition-colors duration-300"
+            >
+              <img src={email} alt="" className="w-7"></img>
+            </a>
           </li>
           <li className="hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer">
-            <img src={linkedin} alt="" className="w-7"></img>
+            <a
+              href="https://www.linkedin.com/in/nadiavespalec"
+              className="underline decoration-transparent hover:decoration-current transition-colors duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedin} alt="" className="w-7"></img>
+            </a>
           </li>
           <li className="hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer">
-            <img src={instagram} alt="" className="w-7"></img>
+            <a
+              href="https://www.instagram.com"
+              className="underline decoration-transparent hover:decoration-current transition-colors duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={instagram} alt="" className="w-7"></img>
+            </a>
           </li>
           <li className="hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer">
-            <img src={tiktok} alt="" className="w-7"></img>
+            <a
+              href="https://www.tiktok.com"
+              className="underline decoration-transparent hover:decoration-current transition-colors duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={tiktok} alt="" className="w-7"></img>
+            </a>
           </li>
         </ul>
       </div>

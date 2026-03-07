@@ -34,7 +34,8 @@ export default function Hero() {
         </h1>
         <div>
           <h2 className="text-[14px] font-lilex">
-            marketing coordinator ✧ web developer ✧ multi-hobbyist
+            social media marketing coordinator ✧ software engineer ✧
+            multi-hobbyist
           </h2>
 
           <div className="relative mx-auto max-w-md mt-4 mb-12">

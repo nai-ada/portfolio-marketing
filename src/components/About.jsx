@@ -3,9 +3,9 @@ export default function About() {
     <div className="flex justify-center mx-8 mt-40 md:mt-50" id="about">
       <div className="max-w-xl text-orange-500 text-[12px] md:text-[15px] font-lilex">
         <p>
-          Hey, you made it! Thanks for taking the time to explore my y2k-blog
-          inspired website. I'm a Vancouver-based digital marketing coordinator
-          and software engineer who can't seem to stay in one creative lane.
+          Hey, you made it! Thanks for taking the time to explore my website.
+          I'm a Vancouver-based social media marketing coordinator and software
+          engineer who can't seem to stay in one creative lane.
         </p>
         <br></br>
         <p>
