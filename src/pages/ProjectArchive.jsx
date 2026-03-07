@@ -24,9 +24,9 @@ const alienStage =
 const jjkDetailed =
   "https://res.cloudinary.com/dpday3x3j/video/upload/v1772889131/jjk-detailed_yvdbrw.mp4";
 const halloweenRecap =
-  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887495/halloween-recap_uieoit.mp4";
+  "https://res.cloudinary.com/dpday3x3j/video/upload/f_mp4/v1772887495/halloween-recap_uieoit.mp4";
 const halloweenLiveDrawing =
-  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887475/halloween-live-drawing_fxnugp.mp4";
+  "https://res.cloudinary.com/dpday3x3j/video/upload/f_mp4/v1772887475/halloween-live-drawing_fxnugp.mp4";
 const japaneseUnboxing =
   "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887510/japanese-unboxing_qm2qgs.mp4";
 const bouquetEvent =
