@@ -8,7 +8,6 @@ function VideoPlayer({ videos }) {
           muted
           loop
           controls
-          preload={isMobile ? "none" : "auto"}
           style={{
             width: "100%",
             maxWidth: "250px",
