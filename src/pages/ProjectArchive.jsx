@@ -4,9 +4,9 @@ import Logo from "../components/Logo";
 const vlog1 =
   "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887536/vlog1_zruxu3.mp4";
 const twiceEvent =
-  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887535/twice-event_j34p5g.mov";
+  "https://res.cloudinary.com/dpday3x3j/video/upload/f_mp4/v1772887535/twice-event_j34p5g.mov";
 const giftExchange =
-  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887456/gift-exchange_y3tjyi.mov";
+  "https://res.cloudinary.com/dpday3x3j/video/upload/f_mp4/v1772887456/gift-exchange_y3tjyi.mov";
 const shopLocal =
   "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887533/shop-local_qxhxk1.mp4";
 const boyfriendVid =
@@ -18,9 +18,9 @@ const phoneDeco =
 const customerFeature =
   "https://res.cloudinary.com/dpday3x3j/video/upload/v1772889126/customer-feature_eplyqi.mp4";
 const artPrint =
-  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887420/art-print_idovdh.mov";
+  "https://res.cloudinary.com/dpday3x3j/video/upload/f_mp4/v1772887420/art-print_idovdh.mov";
 const alienStage =
-  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887420/alien-stage_drrnw0.mov";
+  "https://res.cloudinary.com/dpday3x3j/video/upload/f_mp4/v1772887420/alien-stage_drrnw0.mov";
 const jjkDetailed =
   "https://res.cloudinary.com/dpday3x3j/video/upload/v1772889131/jjk-detailed_yvdbrw.mp4";
 const halloweenRecap =

@@ -1,9 +1,9 @@
 import VideoPlayer from "./VideoPlayer";
 import { Link } from "react-router-dom";
 const twiceEvent =
-  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887535/twice-event_j34p5g.mov";
+  "https://res.cloudinary.com/dpday3x3j/video/upload/f_mp4/v1772887535/twice-event_j34p5g.mov";
 const giftExchange =
-  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887456/gift-exchange_y3tjyi.mov";
+  "https://res.cloudinary.com/dpday3x3j/video/upload/f_mp4/v1772887456/gift-exchange_y3tjyi.mov";
 const shopLocal =
   "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887533/shop-local_qxhxk1.mp4";
 const boyfriendVid =
@@ -11,7 +11,7 @@ const boyfriendVid =
 const colorHunt =
   "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887415/color-hunt_xux4ik.mp4";
 const artPrint =
-  "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887420/art-print_idovdh.mov";
+  "https://res.cloudinary.com/dpday3x3j/video/upload/f_mp4/v1772887420/art-print_idovdh.mov";
 const japaneseUnboxing =
   "https://res.cloudinary.com/dpday3x3j/video/upload/v1772887510/japanese-unboxing_qm2qgs.mp4";
 
