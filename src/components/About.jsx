@@ -5,7 +5,7 @@ export default function About() {
         <p>
           Hey, you made it! Thanks for taking the time to explore my website.
           I'm a Vancouver-based social media marketing coordinator and software
-          engineer who can't seem to stay in one creative lane.
+          developer who can't seem to stay in one creative lane.
         </p>
         <br></br>
         <p>

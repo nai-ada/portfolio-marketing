@@ -34,7 +34,7 @@ export default function Hero() {
         </h1>
         <div>
           <h2 className="text-[14px] font-lilex">
-            social media marketing coordinator ✧ software engineer ✧
+            social media marketing coordinator ✧ software developer ✧
             multi-hobbyist
           </h2>
 
