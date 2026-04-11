@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div className="ml-2 mr-2 md:ml-10 md:mr-10">
       <h2 className="text-blue-600 mt-10 text-[46px] font-bold text-center font-sour">
-        i'd love to work with you!
+        i'd love for us to work together!
       </h2>
       <p className="text-center mx-auto mt-5 max-w-xl text-orange-500 text-[12px] md:text-[15px] font-lilex">
         Whether you're looking to amplify your brand's voice, grow your social
