@@ -15,7 +15,7 @@ import Dashboard from "/images/dashboard_placeholder.png";
 export default function CaseStudies() {
   return (
     <div className="flex justify-center p-5 flex-wrap">
-      <Card className="relative mx-auto w-full max-w-xl pt-0 mb-10 shadow-lg">
+      <Card className="relative mx-auto w-full max-w-xl pt-0 mb-10 shadow-xl">
         <div className="absolute inset-0 z-30 aspect-video" />
         <img
           src={Shopify}
@@ -31,15 +31,15 @@ export default function CaseStudies() {
           <CardTitle className="font-sour font-bold text-orange-500 text-[25px]">
             project name
           </CardTitle>
-          <CardDescription className="font-lilex text-[12px] text-black">
+          <CardDescription className="font-lilex text-[12px] text-gray-600">
             What I did (ie. Shopify site and paid ads setup).
           </CardDescription>
-          <CardDescription className="font-lilex text-[12px] text-black">
+          <CardDescription className="font-lilex text-[12px] text-gray-600">
             Resulted in ____.
           </CardDescription>
         </CardHeader>
         <CardFooter>
-          <Button className="w-full font-lilex bg-blue-200 text-blue-600 p-5 rounded-full cursor-pointer font-bold">
+          <Button className="w-full font-lilex bg-blue-200 text-blue-600 p-5 rounded-full cursor-pointer font-bold transition-transform duration-200 hover:-translate-y-1">
             view case study ↗
           </Button>
         </CardFooter>
@@ -61,15 +61,15 @@ export default function CaseStudies() {
           <CardTitle className="font-sour font-bold text-orange-500 text-[25px]">
             project name
           </CardTitle>
-          <CardDescription className="font-lilex text-[12px] text-black">
+          <CardDescription className="font-lilex text-[12px] text-gray-600">
             What I did (ie. Event planned and strategized).
           </CardDescription>
-          <CardDescription className="font-lilex text-[12px] text-black">
+          <CardDescription className="font-lilex text-[12px] text-gray-600">
             Resulted in ____.
           </CardDescription>
         </CardHeader>
         <CardFooter>
-          <Button className="w-full font-lilex bg-blue-200 text-blue-600 p-5 rounded-full cursor-pointer font-bold">
+          <Button className="w-full font-lilex bg-blue-200 text-blue-600 p-5 rounded-full cursor-pointer font-bold transition-transform duration-200 hover:-translate-y-1">
             view case study ↗
           </Button>
         </CardFooter>
@@ -91,15 +91,15 @@ export default function CaseStudies() {
           <CardTitle className="font-sour font-bold text-orange-500 text-[25px]">
             project name
           </CardTitle>
-          <CardDescription className="font-lilex text-[12px] text-black">
+          <CardDescription className="font-lilex text-[12px] text-gray-600">
             What I did (ie. Set up dashboard).
           </CardDescription>
-          <CardDescription className="font-lilex text-[12px] text-black">
+          <CardDescription className="font-lilex text-[12px] text-gray-600">
             Resulted in ____.
           </CardDescription>
         </CardHeader>
         <CardFooter>
-          <Button className="w-full font-lilex bg-blue-200 text-blue-600 p-5 rounded-full cursor-pointer font-bold">
+          <Button className="w-full font-lilex bg-blue-200 text-blue-600 p-5 rounded-full cursor-pointer font-bold transition-transform duration-200 hover:-translate-y-1">
             view case study ↗
           </Button>
         </CardFooter>

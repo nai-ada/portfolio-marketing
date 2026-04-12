@@ -22,7 +22,7 @@ export default function About() {
         </p>
         <br></br>
         <p>
-          Want to know even more? Check out{" "}
+          Want to learn even more about me? Check out{" "}
           <a
             href="https://youtube.com"
             className="underline text-blue-600"
@@ -31,10 +31,10 @@ export default function About() {
           >
             this link
           </a>{" "}
-          for a quick video about me!
+          for a quick video!
         </p>
         <br></br>
-        <p className="font-semibold text-blue-600">
+        <p className="text-blue-600">
           Wanting to chat? Feel free to reach me via email or LinkedIn:
         </p>
         <ul className="flex gap-6 mt-5">
@@ -59,7 +59,7 @@ export default function About() {
           </li>
         </ul>
 
-        <div className="border-b border-gray-300 mt-10"></div>
+        <div className="border-b border-gray-300 mt-16"></div>
       </div>
     </div>
   );

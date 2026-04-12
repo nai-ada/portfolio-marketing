@@ -33,7 +33,7 @@ export default function Hero() {
           nadia vespalec
         </h1>
         <div>
-          <h2 className="text-[14px] font-lilex">
+          <h2 className="text-[14px] font-lilex text-blue-600">
             social media ✧ digital marketing ✧ multi-hobbyist
           </h2>
 

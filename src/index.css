@@ -141,8 +141,6 @@ body {
   }
 }
 
-/* Variables */
-/* Fonts */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -152,21 +150,19 @@ body {
   letter-spacing: 0.05em;
 }
 
-/* Layout */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* Styling */
 .timeline {
   margin: 4em auto;
   position: relative;
   max-width: 46em;
 }
 .timeline:before {
-  background-color: black;
+  background-color: #4b5563;
   content: "";
   margin-left: -1px;
   position: absolute;
@@ -184,12 +180,12 @@ body {
   -ms-transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  background-color: #f97316;
+  background-color: #bfdbfe;
 }
 .timeline-event:hover .timeline-event-thumbnail {
-  -moz-box-shadow: inset 40em 0 0 0 #f97316;
-  -webkit-box-shadow: inset 40em 0 0 0 #f97316;
-  box-shadow: inset 40em 0 0 0 #f97316;
+  -moz-box-shadow: inset 40em 0 0 0 #bfdbfe;
+  -webkit-box-shadow: inset 40em 0 0 0 #bfdbfe;
+  box-shadow: inset 40em 0 0 0 #bfdbfe;
 }
 
 .timeline-event-copy {
@@ -200,11 +196,12 @@ body {
   width: 80%;
 }
 .timeline-event-copy h3 {
-  font-size: 1.75em;
+  font-size: 1.55em;
 }
 .timeline-event-copy h4 {
-  font-size: 1em;
+  font-size: 14px;
   margin-bottom: 1.2em;
+  font-style: italic;
 }
 .timeline-event-copy strong {
   font-weight: 700;
@@ -222,7 +219,7 @@ body {
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: black;
+  background-color: #4b5563;
   outline: 10px solid white;
   display: block;
   margin: 0.5em 0.5em 0.5em -0.5em;
@@ -234,18 +231,19 @@ body {
 }
 
 .timeline-event-thumbnail {
-  -moz-transition: box-shadow 0.5s ease-in 0.1s;
+  /* -moz-transition: box-shadow 0.5s ease-in 0.1s;
   -o-transition: box-shadow 0.5s ease-in 0.1s;
   -webkit-transition: box-shadow 0.5s ease-in;
-  -webkit-transition-delay: 0.1s;
-  transition: box-shadow 0.5s ease-in 0.1s;
-  color: white;
+  -webkit-transition-delay: 0.1s; */
+  /* transition: box-shadow 0.5s ease-in 0.1s; */
+  color: black;
   font-size: 0.75em;
-  background-color: #f97316;
-  -moz-box-shadow: inset 0 0 0 0em #2563eb;
-  -webkit-box-shadow: inset 0 0 0 0em #2563eb;
-  box-shadow: inset 0 0 0 0em #2563eb;
+  background-color: #bfdbfe;
+  border-radius: 100px;
+  /* -moz-box-shadow: inset 0 0 0 0em white;
+  -webkit-box-shadow: inset 0 0 0 0em white;
+  box-shadow: inset 0 0 0 0em white; */
   display: inline-block;
   margin-bottom: 1.2em;
-  padding: 0.25em 1em 0.2em 1em;
+  padding: 0.25em 1.5em 0.2em 1.5em;
 }

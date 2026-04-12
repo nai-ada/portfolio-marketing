@@ -10,7 +10,7 @@ export default function Experience() {
         <div className="flex justify-center font-lilex mt-2">
           <a
             href="#"
-            className="underline decoration-transparent hover:decoration-current transition-colors hover:text-orange-500 duration-300 flex"
+            className="underline decoration-transparent hover:decoration-current transition-colors text-gray-600 hover:text-orange-500 duration-300 flex"
           >
             download resume
             <img
@@ -21,8 +21,8 @@ export default function Experience() {
           </a>
         </div>
         <div className="md:ml-10 md:mr-10 lg:ml-30 lg:mr-30">
-          <ul class="timeline">
-            <li class="timeline-event">
+          <ul className="timeline">
+            {/* <li class="timeline-event">
               <label class="timeline-event-icon"></label>
               <div class="timeline-event-copy">
                 <p class="timeline-event-thumbnail font-lilex">
@@ -48,34 +48,39 @@ export default function Experience() {
                   BrowserStack.
                 </p>
               </div>
-            </li>
-            <li class="timeline-event">
-              <label class="timeline-event-icon"></label>
-              <div class="timeline-event-copy">
-                <p class="timeline-event-thumbnail font-lilex">
+            </li> */}
+            <li className="timeline-event">
+              <label className="timeline-event-icon"></label>
+              <div className="timeline-event-copy">
+                <p className="timeline-event-thumbnail font-lilex">
                   August 2025 - present
                 </p>
                 <h3 className="font-sour font-extrabold text-blue-600">
                   Social Media Marketing Coordinator
                 </h3>
-                <h4 className="font-lilex  text-orange-500">
+                <h4 className="font-lilex text-gray-600">
                   Dream Collective Canada
                 </h4>
-                <p className="font-lilex">
-                  <strong>Key Responsibilities:</strong>
-                  <div className="text-[12px]">
-                    <p>→ dhgdf</p>
-                    <p>→ dhgdf</p>
-                    <p>→ dhgdf</p>
-                    <p>→ dhgdf</p>
-                  </div>
-                </p>
-                <p className="font-lilex">
-                  <strong>Role Highlights:</strong> <br></br>
-                  Ständiges Verbessern des agilen Entwicklungsprozesses
-                  beispielsweise durch Grunt, Yeoman, GIT, JIRA und
-                  BrowserStack.
-                </p>
+                <div className="font-lilex">
+                  <strong className="text-orange-500">
+                    Key Responsibilities:
+                  </strong>
+                </div>
+                <div className="text-[14px] font-lilex text-gray-600">
+                  <p>→ dhgdfdfhfdhfdhdd </p>
+                  <p>→ dhgdf</p>
+                  <p>→ dhgdf</p>
+                  <p>→ dhgdf</p>
+                </div>
+                <div className="font-lilex">
+                  <strong className="text-orange-500">Role Highlights:</strong>{" "}
+                  <br></br>
+                  <p className="text-[14px] text-gray-600">
+                    Ständiges Verbessern des agilen Entwicklungsprozesses
+                    beispielsweise durch Grunt, Yeoman, GIT, JIRA und
+                    BrowserStack.
+                  </p>
+                </div>
               </div>
             </li>
           </ul>

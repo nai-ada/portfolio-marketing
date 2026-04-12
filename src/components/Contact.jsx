@@ -1,9 +1,6 @@
 const smiski = "/images/smiski.gif";
 const email = "/images/email.png";
 const linkedin = "/images/linkedin.png";
-const instagram = "/images/instagram.png";
-const tiktok = "/images/tik-tok.png";
-const DownloadIcon = "/images/download_icon.png";
 
 const Contact = () => {
   return (
@@ -24,58 +21,27 @@ const Contact = () => {
         className="m-auto max-w-40"
       ></img>
 
-      <div className="flex m-auto justify-center mb-20 mt-6">
-        <ul className="flex gap-10 md:gap-16">
-          <li className="hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer">
+      <div className="flex m-auto justify-center mb-20 mt-6 px-4">
+        <ul className="flex flex-wrap justify-center gap-6 md:gap-10 lg:gap-16">
+          <li className="flex justify-center font-lilex mt-2">
             <a
               href="mailto:nadiavespalec00@gmail.com"
-              className="underline decoration-transparent hover:decoration-current transition-colors duration-300"
+              className="underline decoration-transparent text-[14px] hover:decoration-current text-gray-600 transition-colors hover:text-orange-500 duration-300 flex items-center"
             >
-              <img src={email} alt="" className="w-7"></img>
+              nadiavespalec00@gmail.com
+              <img src={email} alt="email icon" className="w-5 ml-2" />
             </a>
           </li>
 
-          <li className="hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer">
-            <a
-              href="https://www.linkedin.com/in/nadiavespalec"
-              className="underline decoration-transparent hover:decoration-current transition-colors duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={linkedin} alt="" className="w-7"></img>
-            </a>
-          </li>
-          {/* <li className="hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer">
-            <a
-              href="https://www.instagram.com"
-              className="underline decoration-transparent hover:decoration-current transition-colors duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={instagram} alt="" className="w-7"></img>
-            </a>
-          </li>
-          <li className="hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer">
-            <a
-              href="https://www.tiktok.com"
-              className="underline decoration-transparent hover:decoration-current transition-colors duration-300"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={tiktok} alt="" className="w-7"></img>
-            </a>
-          </li> */}
           <li className="flex justify-center font-lilex mt-2">
             <a
-              href="#"
-              className="underline decoration-transparent hover:decoration-current transition-colors hover:text-orange-500 duration-300 flex"
+              href="https://linkedin.com/in/nadiavespalec"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline decoration-transparent text-[14px] hover:decoration-current transition-colors text-gray-600  hover:text-orange-500 duration-300 flex items-center"
             >
-              resume
-              <img
-                src={DownloadIcon}
-                alt="download icon"
-                className="w-5 ml-1"
-              ></img>
+              /nadiavespalec
+              <img src={linkedin} alt="linkedin icon" className="w-5 ml-2" />
             </a>
           </li>
         </ul>
