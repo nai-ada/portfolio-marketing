@@ -1,3 +1,6 @@
+const email = "/images/email.png";
+const linkedin = "/images/linkedin.png";
+
 export default function About() {
   return (
     <div className="flex justify-center mx-8 mt-40 md:mt-50" id="about">
@@ -19,7 +22,7 @@ export default function About() {
         </p>
         <br></br>
         <p>
-          Want to get to know me even more? Check out{" "}
+          Want to know even more? Check out{" "}
           <a
             href="https://youtube.com"
             className="underline text-blue-600"
@@ -30,6 +33,32 @@ export default function About() {
           </a>{" "}
           for a quick video about me!
         </p>
+        <br></br>
+        <p className="font-semibold text-blue-600">
+          Wanting to chat? Feel free to reach me via email or LinkedIn:
+        </p>
+        <ul className="flex gap-6 mt-5">
+          <li className="hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer">
+            <a
+              href="mailto:nadiavespalec00@gmail.com"
+              className="underline decoration-transparent hover:decoration-current transition-colors duration-300"
+            >
+              <img src={email} alt="" className="w-5 md:w-6"></img>
+            </a>
+          </li>
+
+          <li className="hover:-translate-y-2 transition-transform duration-300 ease-in-out cursor-pointer">
+            <a
+              href="https://www.linkedin.com/in/nadiavespalec"
+              className="underline decoration-transparent hover:decoration-current transition-colors duration-300"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={linkedin} alt="" className="w-5 md:w-6"></img>
+            </a>
+          </li>
+        </ul>
+
         <div className="border-b border-gray-300 mt-10"></div>
       </div>
     </div>
