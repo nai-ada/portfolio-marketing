@@ -30,7 +30,8 @@ export default function Hero() {
     <div className="">
       <div className="text-blue-600 m-4 mt-0 text-center">
         <h1 className="font-sour font-bold text-[65px] md:text-[80px] leading-none mb-5">
-          nadia vespalec
+          <span className="font-normal">✧</span> nadia vespalec{" "}
+          <span className="font-normal">✧</span>
         </h1>
         <div>
           <h2 className="text-[14px] font-lilex text-blue-600">

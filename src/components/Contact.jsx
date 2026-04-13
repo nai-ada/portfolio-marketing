@@ -6,7 +6,8 @@ const Contact = () => {
   return (
     <div className="ml-2 mr-2 md:ml-10 md:mr-10">
       <h2 className="text-blue-600 mt-10 text-[46px] font-bold text-center font-sour">
-        contact
+        <span className="font-normal">✧</span> contact{" "}
+        <span className="font-normal">✧</span>
       </h2>
       <p className="text-center mx-auto mt-5 max-w-xl text-orange-500 text-[12px] md:text-[15px] font-lilex">
         I'm currently open to full-time opportunities in social media marketing

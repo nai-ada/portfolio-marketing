@@ -141,9 +141,10 @@ export default function Gallery() {
       <Logo />
       <div className="text-blue-600 m-4 pt-0 mt-0 text-center font-sour">
         <h1 className=" font-bold text-[65px] md:text-[80px] leading-none mb-5">
-          content gallery
+          <span className="font-normal">✧</span> content gallery{" "}
+          <span className="font-normal">✧</span>
         </h1>
-        <p className="font-lilex text-orange-600">
+        <p className="font-lilex text-orange-500">
           all my content in one place!
         </p>
         <Link to="/">

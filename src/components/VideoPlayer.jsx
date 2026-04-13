@@ -31,8 +31,8 @@ function VideoPlayer({ videos }) {
             <source src={url} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <div className="p-4">
-            <p className="text-blue-600 font-semibold font-sour text-[20px] text-center">
+          <div className="p-6">
+            <p className="text-blue-600 font-extrabold font-sour text-[24px] text-center">
               {title}
             </p>
             <p className="text-sm text-gray-600 font-lilex text-center mt-1 text-[12px]">

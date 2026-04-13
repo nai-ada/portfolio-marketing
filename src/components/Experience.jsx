@@ -5,7 +5,8 @@ export default function Experience() {
     <>
       <div className="justify-center" id="experience">
         <h2 className="text-blue-600 mt-10 text-[46px] font-bold text-center font-sour">
-          professional experience
+          <span className="font-normal">✧</span> professional experience{" "}
+          <span className="font-normal">✧</span>
         </h2>
         <div className="flex justify-center font-lilex mt-2">
           <a

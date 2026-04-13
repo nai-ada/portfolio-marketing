@@ -29,7 +29,7 @@ export default function CaseStudies() {
             </Badge>
           </CardAction>
           <CardTitle className="font-sour font-bold text-orange-500 text-[25px]">
-            project name
+            ✧ project name
           </CardTitle>
           <CardDescription className="font-lilex text-[12px] text-gray-600">
             What I did (ie. Shopify site and paid ads setup).
@@ -59,7 +59,7 @@ export default function CaseStudies() {
             </Badge>
           </CardAction>
           <CardTitle className="font-sour font-bold text-orange-500 text-[25px]">
-            project name
+            ✧ project name
           </CardTitle>
           <CardDescription className="font-lilex text-[12px] text-gray-600">
             What I did (ie. Event planned and strategized).
@@ -89,7 +89,7 @@ export default function CaseStudies() {
             </Badge>
           </CardAction>
           <CardTitle className="font-sour font-bold text-orange-500 text-[25px]">
-            project name
+            ✧ project name
           </CardTitle>
           <CardDescription className="font-lilex text-[12px] text-gray-600">
             What I did (ie. Set up dashboard).

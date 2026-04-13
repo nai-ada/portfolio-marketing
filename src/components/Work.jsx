@@ -5,7 +5,8 @@ export default function Work() {
   return (
     <div id="work" className="m-4">
       <h2 className="text-blue-600 mt-10 text-[46px] font-bold text-center font-sour">
-        case studies
+        <span className="font-normal">✧</span> case studies{" "}
+        <span className="font-normal">✧</span>
       </h2>
       <div className="flex justify-center mx-8 mt-4 mb-4">
         <div className="max-w-xl text-orange-500 text-[12px] md:text-[15px] font-lilex">
@@ -18,7 +19,8 @@ export default function Work() {
       </div>
       <CaseStudies />
       <h2 className="text-blue-600 text-[46px] font-bold text-center font-sour">
-        featured content
+        <span className="font-normal">✧</span> featured content{" "}
+        <span className="font-normal">✧</span>
       </h2>
       <SelectedContent />
     </div>
