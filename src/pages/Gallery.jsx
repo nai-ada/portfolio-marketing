@@ -144,11 +144,11 @@ export default function Gallery() {
           <span className="font-normal">✧</span> content gallery{" "}
           <span className="font-normal">✧</span>
         </h1>
-        <p className="font-lilex text-orange-500">
+        <p className="font-lilex text-orange-600">
           all my content in one place!
         </p>
         <Link to="/">
-          <p className="underline decoration-transparent hover:decoration-current transition-colors text-[12px] font-lilex mt-4 text-gray-600 hover:text-orange-500 duration-300">
+          <p className="underline decoration-transparent hover:decoration-current transition-colors text-[12px] font-lilex mt-4 text-gray-600 hover:text-orange-600 duration-300">
             ← take me back to the homepage!
           </p>
         </Link>
@@ -162,7 +162,7 @@ export default function Gallery() {
             key={label}
             className={index === categories.length - 1 ? "mb-12" : ""}
           >
-            <h3 className="font-lilex text-[14px] text-center text-orange-500 m-4">
+            <h3 className="font-lilex text-[14px] text-center text-orange-600 m-4">
               <span className="font-bold italic text-[28px]">{label}</span>
             </h3>
             <VideoPlayer videos={videos} className="max-w-50" />

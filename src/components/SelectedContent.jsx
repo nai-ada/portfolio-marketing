@@ -37,14 +37,14 @@ export default function SelectedContent() {
   return (
     <>
       <Link to="/gallery">
-        <p className="text-gray-600 cursor-pointer text-center m-4 mt-2 underline font-lilex decoration-transparent hover:decoration-current transition-colors  hover:text-orange-500 duration-300">
+        <p className="text-gray-600 cursor-pointer text-center m-4 mt-2 underline font-lilex decoration-transparent hover:decoration-current transition-colors  hover:text-orange-600 duration-300">
           view content gallery ↗
         </p>
       </Link>
 
       <div className="md:ml-10 md:mr-10 lg:ml-30 lg:mr-30">
         <div>
-          {/* <h3 className="font-lilex text-[14px] text-center text-orange-500 m-4 ">
+          {/* <h3 className="font-lilex text-[14px] text-center text-orange-600 m-4 ">
             <span className="font-bold italic text-[18px]">
               Dream Collective Canada
             </span>{" "}
@@ -56,7 +56,7 @@ export default function SelectedContent() {
         <div className="border-b border-gray-300 mt-10"></div>
 
         {/* <div className="mt-10">
-          <h3 className="font-lilex text-[14px] text-center text-orange-500 m-4">
+          <h3 className="font-lilex text-[14px] text-center text-orange-600 m-4">
             <span className="font-bold italic text-[18px]">
               UGC @nectariniche (shh! I'm a work in progress...)
             </span>{" "}

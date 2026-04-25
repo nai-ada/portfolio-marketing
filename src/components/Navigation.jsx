@@ -15,7 +15,7 @@ export default function Navigation() {
               href="https://nadiavespalec.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-orange-500 underline hover:transition hover:duration-300"
+              className="text-orange-600 underline hover:transition hover:duration-300"
             >
               visit my dev site
             </a> */}
@@ -23,7 +23,7 @@ export default function Navigation() {
           <li>
             <a
               href="#about"
-              className="underline decoration-transparent hover:decoration-current hover:text-orange-500 transition-colors duration-300"
+              className="underline decoration-transparent hover:decoration-current hover:text-orange-600 transition-colors duration-300"
             >
               about
             </a>
@@ -31,7 +31,7 @@ export default function Navigation() {
           <li>
             <a
               href="#work"
-              className="underline decoration-transparent hover:decoration-current hover:text-orange-500 transition-colors duration-300"
+              className="underline decoration-transparent hover:decoration-current hover:text-orange-600 transition-colors duration-300"
             >
               my work
             </a>
@@ -39,7 +39,7 @@ export default function Navigation() {
           <li>
             <a
               href="#experience"
-              className="underline decoration-transparent hover:decoration-current transition-colors hover:text-orange-500 duration-300"
+              className="underline decoration-transparent hover:decoration-current transition-colors hover:text-orange-600 duration-300"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -49,7 +49,7 @@ export default function Navigation() {
           <li>
             <a
               href="#expertise"
-              className="underline decoration-transparent hover:decoration-current transition-colors hover:text-orange-500 duration-300"
+              className="underline decoration-transparent hover:decoration-current transition-colors hover:text-orange-600 duration-300"
             >
               expertise
             </a>
@@ -57,7 +57,7 @@ export default function Navigation() {
           <li>
             <a
               href="#"
-              className="underline decoration-transparent hover:decoration-current transition-colors hover:text-orange-500 duration-300 flex"
+              className="underline decoration-transparent hover:decoration-current transition-colors hover:text-orange-600 duration-300 flex"
             >
               resume
               <img

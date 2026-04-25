@@ -9,7 +9,7 @@ export default function Work() {
         <span className="font-normal">✧</span>
       </h2>
       <div className="flex justify-center mx-8 mt-4 mb-4">
-        <div className="max-w-xl text-orange-500 text-[12px] md:text-[15px] font-lilex">
+        <div className="max-w-xl text-orange-600 text-[12px] md:text-[15px] font-lilex">
           <p>
             Each case study breaks down a real marketing challenge — what I
             tried, what I learned, and how it shaped the way I approach social

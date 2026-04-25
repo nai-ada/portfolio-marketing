@@ -4,7 +4,7 @@ const linkedin = "/images/linkedin.png";
 export default function About() {
   return (
     <div className="flex justify-center mx-8 mt-40 md:mt-50" id="about">
-      <div className="max-w-xl text-orange-500 text-[12px] md:text-[15px] font-lilex">
+      <div className="max-w-xl text-orange-600 text-[12px] md:text-[15px] font-lilex">
         <p>
           Welcome to my corner of the web! I'm a social media and digital
           marketing professional with a background in web development and a

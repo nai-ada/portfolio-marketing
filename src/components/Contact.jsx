@@ -9,7 +9,7 @@ const Contact = () => {
         <span className="font-normal">✧</span> contact{" "}
         <span className="font-normal">✧</span>
       </h2>
-      <p className="text-center mx-auto mt-5 max-w-xl text-orange-500 text-[12px] md:text-[15px] font-lilex">
+      <p className="text-center mx-auto mt-5 max-w-xl text-orange-600 text-[12px] md:text-[15px] font-lilex">
         I'm currently open to full-time opportunities in social media marketing
         and adjacent roles. If you're looking for a collaborative team member
         who's as comfortable in a content calendar as they are in a data
@@ -27,7 +27,7 @@ const Contact = () => {
           <li className="flex justify-center font-lilex mt-2">
             <a
               href="mailto:nadiavespalec00@gmail.com"
-              className="underline decoration-transparent text-[14px] hover:decoration-current text-gray-600 transition-colors hover:text-orange-500 duration-300 flex items-center"
+              className="underline decoration-transparent text-[14px] hover:decoration-current text-gray-600 transition-colors hover:text-orange-600 duration-300 flex items-center"
             >
               nadiavespalec00@gmail.com
               <img src={email} alt="email icon" className="w-5 ml-2" />
@@ -39,7 +39,7 @@ const Contact = () => {
               href="https://linkedin.com/in/nadiavespalec"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline decoration-transparent text-[14px] hover:decoration-current transition-colors text-gray-600  hover:text-orange-500 duration-300 flex items-center"
+              className="underline decoration-transparent text-[14px] hover:decoration-current transition-colors text-gray-600  hover:text-orange-600 duration-300 flex items-center"
             >
               /nadiavespalec
               <img src={linkedin} alt="linkedin icon" className="w-5 ml-2" />
