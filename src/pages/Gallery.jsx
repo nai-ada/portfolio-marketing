@@ -115,22 +115,17 @@ export default function Gallery() {
       ],
     },
     {
-      label: "unboxings",
-      videos: [
-        {
-          url: japaneseUnboxing,
-          title: "Japanese Stationery Unboxing",
-          description: "unboxing a haul of japanese stationery 🇯🇵",
-        },
-      ],
-    },
-    {
-      label: "hauls",
+      label: "unboxings & hauls",
       videos: [
         {
           url: phoneDeco,
           title: "Phone Deco Haul",
           description: "everything i got for decorating my phone 📱",
+        },
+        {
+          url: japaneseUnboxing,
+          title: "Japanese Stationery Unboxing",
+          description: "unboxing a haul of japanese stationery 🇯🇵",
         },
       ],
     },

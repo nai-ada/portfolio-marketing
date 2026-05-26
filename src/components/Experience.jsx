@@ -68,19 +68,15 @@ export default function Experience() {
                   </strong>
                 </div>
                 <div className="text-[14px] font-lilex text-gray-600">
-                  <p>→ dhgdfdfhfdhfdhdd </p>
-                  <p>→ dhgdf</p>
-                  <p>→ dhgdf</p>
-                  <p>→ dhgdf</p>
+                  <p>→ -</p>
+                  <p>→ -</p>
+                  <p>→ -</p>
+                  <p>→ -</p>
                 </div>
                 <div className="font-lilex">
                   <strong className="text-orange-500">Role Highlights:</strong>{" "}
                   <br></br>
-                  <p className="text-[14px] text-gray-600">
-                    Ständiges Verbessern des agilen Entwicklungsprozesses
-                    beispielsweise durch Grunt, Yeoman, GIT, JIRA und
-                    BrowserStack.
-                  </p>
+                  <p className="text-[14px] text-gray-600">-</p>
                 </div>
               </div>
             </li>
